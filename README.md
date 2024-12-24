@@ -1,6 +1,6 @@
-﻿# Host a Static Website on Amazon S3
+﻿# Hosted a Static Website on Amazon S3
 ---
-
+## Steps to do 
 ### **Step 1: Create an S3 Bucket**
 1. Log in to your [AWS Management Console](https://aws.amazon.com/console/).
 2. Search for **S3** in the search bar and open the S3 service.
