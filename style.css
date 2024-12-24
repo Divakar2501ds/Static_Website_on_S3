@@ -1,0 +1,59 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    text-align: center;
+}
+
+/* Style the header */
+header {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+/* Center the name */
+.name {
+    font-size: 24px;
+    color: #555;
+    margin: 20px 0;
+}
+
+.colorful-name {
+    font-size: 40px;
+    font-weight: bold;
+    color: #e74c3c;
+    text-transform: uppercase;
+    background: linear-gradient(45deg, #f39c12, #8e44ad, #3498db);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+/* Style the image */
+.image-container {
+    margin-top: 20px;
+}
+
+.s3-image {
+    width: 60%; /* Adjust image size */
+    max-width: 500px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
